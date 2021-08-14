@@ -43,12 +43,4 @@ response.sendRedirect("viewTransaction.jsp?msg=successful");
 }catch(Exception e){
 response.sendRedirect("viewTransaction.jsp?msg=failed");
 }
-
-/* out.println(fromName);
-out.println(fromBalance);
-out.println(transferredAmount);
-out.println(toEmail); */
-/* catch(Exception e){
-out.println("Something went wrong");
-} */
 %>

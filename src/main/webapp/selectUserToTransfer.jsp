@@ -52,15 +52,5 @@ while(rs.next())
   </div>
 </div>
 </form>
-<!-- <script>
-function passVal(){
-	var toUser=document.getElementById("select_customer").value;
-	var today = new Date();
-	if(toUser!=null){
-		sessionStorage.setItem("toUser",toUser);
-		sessionStorage.setItem("date",today);
-	}
-}
-</script> -->
 </body>
 </html>

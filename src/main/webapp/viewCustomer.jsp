@@ -48,29 +48,5 @@ while(rs.next())
 <%} %>
 </table>
 </div>
-<!-- <script>
-var table = document.getElementById("customers"),rIndex;
-for(var i=1;i<table.rows.length;i++){
-	var n2=table.rows[i].cells.length;
-	
- table.rows[i].onclick=function(){
-	rIndex=this.rowIndex;
-	var fromUser = this.cells.item(0).innerText;
-	var fromEmail = this.cells.item(1).innerText;
-	var fromMobile = this.cells.item(2).innerText;
-	var fromIfsc = this.cells.item(3).innerText;
-	var fromAccountNo= this.cells.item(4).innerText;
-	var fromBalance = this.cells.item(5).innerText;
-	console.log(name+" "+email+" "+mobile+" "+ifsc+" "+accountNo+" "+balance);
-	
-	sessionStorage.setItem("name",fromUser);
-	sessionStorage.setItem("email",fromEmail);
-	sessionStorage.setItem("mobile",fromMobile);
-	sessionStorage.setItem("ifsc",fromIfsc);
-	sessionStorage.setItem("accountNo",fromAccountNo);
-	sessionStorage.setItem("balance",fromBalance);
- };
-}
-</script> -->
 </body>
 </html>

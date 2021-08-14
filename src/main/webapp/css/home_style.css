@@ -1,8 +1,13 @@
 @charset "ISO-8859-1";
+body{
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 .home_bg{
-	background-image: url('../images/bg_bank.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+    width:100%;
+	height:100%;
 }
 .home_bg img{
 	margin-top:6%;
@@ -11,7 +16,7 @@
 .button{
 	position:absolute;
 	top:25%;
-	right:-25%;
+	right:15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -19,23 +24,25 @@
 	width: 100%;
 }
 .btn_sm{
-	margin-top:15px;
-	margin-right: 5%;
-    padding: 15px;
+	margin-top: 17px;
+    margin-right: -68%;
+    padding: 11px;
     background: transparent;
     width:15em;
-    border: 2px solid black;
+    border: 2px solid #9e9696;
     border-radius:20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
    
 	
 }
-.btn_sm a{
-text-decoration: none;
-color: black;
-}
 
-.btn_sm a:hover {
+.btn_sm:hover {
+	color:black;
+	background-color:black;
 	color:white;
-	transform: translateX(-50%);
+	transform: translateX(10%);
+	transition:0.8s;
 
 }

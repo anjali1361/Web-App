@@ -13,6 +13,13 @@
 </head>
 <body>
 <center style="margin-top:70px;"><button type="button" class="btn btn-secondary" style="background-color:#8080ff;"><a href="home.jsp" style="text-decoration:none; color:white; padding:10px;">Go Back</a></button>
+<%
+String msg=request.getParameter("msg");
+if("successful".equals(msg)){ %>
+<center style="color:green; font-weight:bold; font-family:cursive;"><h1>Transaction Successful !!</h1></center>
+<%}else if("failed".equals(msg)){ %>
+<center style="color:red; font-weight:bold; font-family:cursive; margin-top:10px;"><h1>Something went wrong &#128528;</h1></center>
+<%} %>
 <div class="containing_table">
 <%try{
 Connection con = ConnectionProvider.getCon();
@@ -39,7 +46,7 @@ while(rs.next())
 <%} %>
 <% con.close();
 } catch(Exception e){ %>
-<center style="color:red; font-weight:bold; font-family:cursive;"><h1>Something went wrong &#128528;</h1></center>
+<center style="color:red; font-weight:bold; font-family:cursive;"><h1>No Transaction Yet &#128528;</h1></center>
 <%} %>
 </table>
 </div>

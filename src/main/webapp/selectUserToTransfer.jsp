@@ -9,26 +9,8 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Select user to transfer money</title>
-<!-- <link rel="stylesheet" href="./css/select_user_style.css"> -->
+<link rel="stylesheet" href="./css/select_user_style.css">
 </head>
-<style>
-.select{
-	display: flex;
-	flex-direction: column;
-	margin:10px;
-}
-
-.select label{
-	margin-top: 5%;
-	font-weight: 30px;
-	font-family: sans-serif;
-	font-style: curs;
-}
-
-.select select{
-	align-self: center;
-}
-</style>
 <body>
 <form action="storeToUserInSession.jsp">
 <center>

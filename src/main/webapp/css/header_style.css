@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.custom{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+}
+.social-icons i{
+	color:white;
+	margin:5px;
+	padding:5px;
+	border:2px solid white;
+	border-radius:5px;
+}
+.social-icons a:hover{
+	background-color:#00000;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+.social-icons a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}

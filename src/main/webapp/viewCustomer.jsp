@@ -9,33 +9,8 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>All Customers</title>
-<!-- <link rel="stylesheet" href="./css/view_customer.css"> -->
+<link rel="stylesheet" href="./css/view_customer.css">
 </head>
-<style>
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  margin-top: 66px;
-}
-
-#customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color:#8080ff;
-  color: white;
-}
-</style>
 <body>
 <div class="containing_table">
 <%try{

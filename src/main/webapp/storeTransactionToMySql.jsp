@@ -39,9 +39,9 @@ toBalance+=transferredAmount;
 stFrom.executeUpdate("update customer set accountBalance='"+fromBalance+"' where email='"+fromEmail+"'");
 stTo.executeUpdate("update customer set accountBalance='"+toBalance+"' where email='"+toEmail+"'");
 
-response.sendRedirect("home.jsp?msg=done");
+response.sendRedirect("viewTransaction.jsp?msg=successful");
 }catch(Exception e){
-response.sendRedirect("home.jsp?msg=wrong");
+response.sendRedirect("viewTransaction.jsp?msg=failed");
 }
 
 /* out.println(fromName);

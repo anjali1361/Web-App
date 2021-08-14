@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Footer</title>
-<link rel="stylesheet" href="./css/footer_style.css">
+<title>Insert title here</title>
 </head>
 <body>
- <div class="footer bg-dark">
-          <p>All Right Reserved &copy BTech Days</p>
-      </div>
+
 </body>
 </html>

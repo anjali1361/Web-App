@@ -7,6 +7,10 @@
 * Hosting - AWS EC2
 * Storage - MySQL.
 
+## To run this application
+* Fork & Cone the project, then go to "Basic Banking Web App\src\main\java\project\ConnectionProvidet.jsp" file and add your username & password for the MySQL Database at line no. 7
+* Create two tables, "customer" and "transer" and insert dummy data to the customer table using file located at "Web-Banking-Application/src/main/webapp/table/create_table.jsp"
+
 ## Related Screenshots!
 
 ### Home
@@ -32,10 +36,15 @@
 ------------------------------------------
 
 ### Transactions List & Detail
-<img src="https://github.com/anjali1361/Web-Banking-Application/blob/main/Images/view_transaction.png" width ="1000px" height ="550px">
+<img src="https://github.com/anjali1361/Web-Banking-Application/blob/main/Images/no_transaction_yet.png" width ="1000px" height ="550px">
+<img src="https://github.com/anjali1361/Web-Banking-Application/blob/main/Images/transaction_something_went_wrong.png" width ="1000px" height ="550px">
+<img src="https://github.com/anjali1361/Web-Banking-Application/blob/main/Images/transaction_successfull.png" width ="1000px" height ="550px">
 
 ------------------------------------------
 
 
 ### Project Explanation 
-Link https://www.youtube.com/watch?v=aIGzljWLYCk
+Link https://www.youtube.com/watch?v=VAjAOz6ZRl8
+
+### Live at
+Link http://3.140.93.9:8080/Basic%20Banking%20Web%20App/home.jsp

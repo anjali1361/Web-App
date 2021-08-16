@@ -47,4 +47,4 @@
 Link https://www.youtube.com/watch?v=VAjAOz6ZRl8
 
 ### Live at
-Link http://3.140.93.9:8080/Basic%20Banking%20Web%20App/home.jsp
+Link http://3.140.93.9:8080/BasicBankingWebApp/home.jsp

@@ -42,6 +42,8 @@
 
 ------------------------------------------
 
+### Hosting related concept's documentation
+Link https://docs.google.com/document/d/1nOE8fQoLAuqQvu6vKUHtS0_dZEQw80F0YbHr9OHDj2M/edit?usp=sharing
 
 ### Project Explanation 
 Link https://www.youtube.com/watch?v=VAjAOz6ZRl8

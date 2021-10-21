@@ -1,7 +1,7 @@
 # Basic Banking Web App
 
 ## Description
-* Banking Web App to dispaly information about successful transactions done by the user.
+* Banking Web App to display information about successful transactions done by the user.
 * Frontend - Html, CSS, Bootstrap
 * Backend - Java EE(JSP, JDBC)
 * Hosting - AWS EC2

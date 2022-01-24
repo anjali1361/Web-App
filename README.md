@@ -8,7 +8,7 @@
 * Storage - MySQL.
 
 ## To run this application
-* Fork & Cone the project, then go to "Basic Banking Web App\src\main\java\project\ConnectionProvidet.jsp" file and add your username & password for the MySQL Database at line no. 7
+* Fork & Clone the project, then go to "Basic Banking Web App\src\main\java\project\ConnectionProvidet.jsp" file and add your username & password for the MySQL Database at line no. 7
 * Create one database by the name "bankwebapp" and then create two tables, "customer" and "transfer" inside this database, insert dummy data(atleast 2) to the customer table using file located at "Web-Banking-Application/src/main/webapp/table/create_table.jsp"
 
 ## Related Screenshots!
